@@ -36,3 +36,67 @@
         mask: mask_bp
         bbox: bbox_bp
         centroid: centroid_bp
+  
+- notebook: sunflowers
+  testfile: test_sunflowers
+  deadline: 2026-11-08
+  tests:
+    - name: TestLoadData
+      points: 2
+      params:
+        images: images
+        boxes_true: boxes_true
+        load_boxes_fn: load_yolo_boxes
+    - name: TestHueHistogram
+      points: 3
+      params:
+        hist_fn: hue_histogram
+    - name: TestDetectSunflowers
+      points: 5
+      params:
+        detect_fn: detect_sunflowers
+    - name: TestDetectImage1
+      points: 2
+      params:
+        detections: detections
+        boxes_true: boxes_true
+        evaluate_fn: evaluate_blobs
+    - name: TestDetectImage2
+      points: 2
+      params:
+        detections: detections
+        boxes_true: boxes_true
+        evaluate_fn: evaluate_blobs
+    - name: TestDetectImage3
+      points: 2
+      params:
+        detections: detections
+        boxes_true: boxes_true
+        evaluate_fn: evaluate_blobs
+    - name: TestDetectImage4
+      points: 2
+      params:
+        detections: detections
+        boxes_true: boxes_true
+        evaluate_fn: evaluate_blobs
+    - name: TestEvaluateBlobs
+      points: 3
+      params:
+        evaluate_fn: evaluate_blobs
+    - name: TestBoxIoU
+      points: 3
+      bonus: true
+      params:
+        box_iou_fn: box_iou
+    - name: TestEvaluateBlobsIoU
+      points: 3
+      bonus: true
+      params:
+        evaluate_fn: evaluate_blobs_iou
+    - name: TestDetectionIoU
+      points: 3
+      bonus: true
+      params:
+        detections: detections
+        boxes_true: boxes_true
+        evaluate_fn: evaluate_blobs_iou

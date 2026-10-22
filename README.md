@@ -2,11 +2,12 @@
 
 ## Přednášky
 
-| #  | datum     | přednáška                                                       | obsah                                             |
-|----|-----------|-----------------------------------------------------------------|---------------------------------------------------|
-| 1. | 24.9.2026 | [Úvod](slides/pvi-01-intro.pdf)                                 | podmínky, úvod, pořízení obrazu, barevné prostory |
-| 2. | 1.10.2026 | [Lokální zájmové body a oblasti I](slides/pvi-02-keypoints.pdf) | Harris, LoG, DoG                                  |
-| 3. | 8.10.2026 | [Lokální zájmové body a oblasti II](slides/pvi-03-features.pdf) | SIFT, approx. NN, SURF, MSER, ORB a další         |
+| #  | datum      | přednáška                                                       | obsah                                                              |
+|----|------------|-----------------------------------------------------------------|--------------------------------------------------------------------|
+| 1. | 24.9.2026  | [Úvod](slides/pvi-01-intro.pdf)                                 | podmínky, úvod, pořízení obrazu, barevné prostory                  |
+| 2. | 1.10.2026  | [Lokální zájmové body a oblasti I](slides/pvi-02-keypoints.pdf) | Harris, LoG, DoG                                                   |
+| 3. | 8.10.2026  | [Lokální zájmové body a oblasti II](slides/pvi-03-features.pdf) | SIFT, approx. NN, SURF, MSER, ORB a další                          |
+| 4. | 15.10.2026 | [Zarovnání obrazů](slides/pvi-04-registration.pdf)              | geometrické transformace a odhad, RANSAC, Hough, detekce, panorama |
 
 
 ## Cvičení
@@ -14,9 +15,10 @@
 - Odevzdání úlohy po termínu bude penalizováno odečtením 50 % bodů.
 - Další podmínky a známkování jsou v přednášce [Úvod](slides/ans-00-intro.pdf).
 
-| #  | úloha                              | body    | deadline  |
-|----|------------------------------------|---------|-----------|
-| 1. | [colors](assignments/colors.ipynb) | 17 (17) | 1.11.2026 |
+| #  | úloha                                      | body    | deadline   |
+|----|--------------------------------------------|---------|------------|
+| 1. | [colors](assignments/colors.ipynb)         | 17      | 28.10.2026 |
+| 2. | [sunflowers](assignments/sunflowers.ipynb) | 21 (+9) | 8.11.2026  |
 
 
 ## Nastavení
