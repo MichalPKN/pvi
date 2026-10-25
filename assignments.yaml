@@ -39,7 +39,7 @@
   
 - notebook: sunflowers
   testfile: test_sunflowers
-  deadline: 2026-11-08
+  deadline: 2026-11-09
   tests:
     - name: TestLoadData
       points: 2
@@ -100,3 +100,42 @@
         detections: detections
         boxes_true: boxes_true
         evaluate_fn: evaluate_blobs_iou
+
+- notebook: id_recognition
+  testfile: test_id_recognition
+  deadline: 2026-11-16
+  tests:
+    - name: TestDetection
+      points: 3
+      params:
+        corners: corners
+    - name: TestRectification
+      points: 3
+      params:
+        card: card
+    - name: TestROIs
+      points: 3
+      params:
+        rois: rois
+    - name: TestOCR
+      points: 3
+      params:
+        ocr_fn: ocr
+    - name: TestOCRExact
+      points: 2
+      bonus: true
+      params:
+        ocr_fn: ocr
+    - name: TestOcrCzeIdPhotos
+      points: 2
+      params:
+        ocr_cze_id_fn: ocr_cze_id
+    - name: TestOcrCzeIdTexts
+      points: 5
+      params:
+        ocr_cze_id_fn: ocr_cze_id
+    - name: TestOcrCzeIdExact
+      points: 2
+      bonus: true
+      params:
+        ocr_cze_id_fn: ocr_cze_id
