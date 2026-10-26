@@ -15,10 +15,11 @@
 - Odevzdání úlohy po termínu bude penalizováno odečtením 50 % bodů.
 - Další podmínky a známkování jsou v přednášce [Úvod](slides/ans-00-intro.pdf).
 
-| #  | úloha                                      | body    | deadline   |
-|----|--------------------------------------------|---------|------------|
-| 1. | [colors](assignments/colors.ipynb)         | 17      | 28.10.2026 |
-| 2. | [sunflowers](assignments/sunflowers.ipynb) | 21 (+9) | 8.11.2026  |
+| #  | úloha                                              | body    | deadline   |
+|----|----------------------------------------------------|---------|------------|
+| 1. | [colors](assignments/colors.ipynb)                 | 17      | 28.10.2026 |
+| 2. | [sunflowers](assignments/sunflowers.ipynb)         | 21 (+9) | 9.11.2026  |
+| 3. | [id_recognition](assignments/id_recognition.ipynb) | 19 (+4) | 16.11.2026 |
 
 
 ## Nastavení
