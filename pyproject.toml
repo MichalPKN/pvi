@@ -5,19 +5,19 @@ description = "Computer Vision Course Setup"
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
 dependencies = [
-    "easyocr>=1.7.2",
-    "ipykernel>=7.4.0",
-    "ipython>=9.17.1",
-    "ipywidgets>=8.1.9",
-    "matplotlib>=3.11.2",
-    "numpy>=2.5.3",
-    "opencv-contrib-python>=5.0.0.93",
-    "pandas>=3.0.6",
-    "scikit-image>=0.26.0",
-    "scikit-learn>=1.9.1",
-    "scipy>=1.18.1",
-    "torch>=2.14.0",
-    "torchvision>=0.29.0",
+    "easyocr",
+    "ipykernel",
+    "ipython",
+    "ipywidgets",
+    "matplotlib",
+    "numpy",
+    "opencv-contrib-python",
+    "pandas",
+    "scikit-image",
+    "scikit-learn",
+    "scipy",
+    "torch",
+    "torchvision",
 ]
 
 [project.optional-dependencies]
